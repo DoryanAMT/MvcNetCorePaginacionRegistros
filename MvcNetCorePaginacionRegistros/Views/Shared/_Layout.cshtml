@@ -26,6 +26,59 @@
                         <li class="nav-item">
                             <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
                         </li>
+                        <div class="collapse navbar-collapse" id="navbarNavDarkDropdown">
+                            <ul class="navbar-nav">
+                                <li class="nav-item dropdown">
+                                    <button class="btn btn-dark dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+                                        Ejemplos paginación
+                                    </button>
+                                    <ul class="dropdown-menu dropdown-menu-dark">
+                                        <li>
+                                            <a class="dropdown-item"
+                                               asp-controller="Paginacion"
+                                               asp-action="EmpleadosOficioOut">
+                                                Paginar Empleados Oficio Out
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a class="dropdown-item"
+                                               asp-controller="Paginacion"
+                                               asp-action="EmpleadosOficio">
+                                                Paginar Empleados Oficio
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a class="dropdown-item"
+                                               asp-controller="Paginacion"
+                                               asp-action="PaginarGrupoEmpleados">
+                                                Paginar Grupo Empleados
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a class="dropdown-item"
+                                               asp-controller="Paginacion"
+                                               asp-action="PaginarGrupoDepartamentos">
+                                                Paginar Grupo Departamento
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a class="dropdown-item"
+                                               asp-controller="Paginacion"
+                                               asp-action="PaginarRegistroVistaDepartamento">
+                                                Paginar Individual Vista
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a class="dropdown-item"
+                                               asp-controller="Paginacion"
+                                               asp-action="PaginarGrupoVistaDepartamento">
+                                                Paginar Grupo Vista
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </div>
                     </ul>
                 </div>
             </div>

@@ -8,7 +8,7 @@ namespace MvcNetCorePaginacionRegistros.Models
     {
         [Key]
         [Column("EMP_NO")]
-        public int idEmpleado { get; set; }
+        public int IdEmpleado { get; set; }
         [Column("APELLIDO")]
         public string Apellido { get; set; }
         [Column("OFICIO")]
@@ -16,6 +16,6 @@ namespace MvcNetCorePaginacionRegistros.Models
         [Column("SALARIO")]
         public int Salario { get; set; }
         [Column("DEPT_NO")]
-        public int idDepartamento { get; set; }
+        public int IdDepartamento { get; set; }
     }
 }
